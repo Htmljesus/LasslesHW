@@ -1,0 +1,90 @@
+.btn{
+    padding: 13px 45px 13px 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: #F53855;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F53855;
+}
+.btn:active {
+    background-color: #F53855;
+    color: #ffffff;
+}
+
+.big__btn {
+    padding: 17.5px 77.5px 17.5px 77.5px;
+    background-color: #F53838;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    position: absolute;
+    box-shadow: 1px 15px 15px rgb(245, 56, 56, 0.35);
+}
+.big__btn:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F53838;
+    background-color: #ffffff;
+    color: #F53838;
+}
+.big__btn:active{
+    position: relative;
+    top: 2px;
+}
+.blur {
+    height: 60px;
+    width: 211.83px;
+    position: relative;
+    background-color: rgb(245, 56, 56, 0.35);
+    filter: blur(54px);
+    z-index: 3;
+    top: 6%;
+    left: 3.5%;
+    display: none;
+}
+
+.not__active {
+    font-weight: 500;
+    font-size: 25px;
+    color: #0B132A;
+}
+.btn__active {
+    padding: 13px 62.94px 13px 62.94px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: #F53855;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F53855;
+    
+}
+
+.btn__active:active {
+    background-color: #F53855;
+    color: #ffffff;
+}
+
+.subscribe {
+    padding: 17.5px 65px 17.5px 65px;
+    background-color: #F53838;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 1px 15px 15px rgb(245, 56, 56, 0.35);
+}
+.subscribe:hover {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F53838;
+    background-color: #ffffff;
+    color: #F53838;
+}
+.subscribe:active{
+    position: relative;
+    top: 2px;
+}
